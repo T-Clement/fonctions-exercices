@@ -8,7 +8,7 @@ console.log();
 // -----------------------------------
 console.log("2/ Implémentez une fonction qui retroune le plus grand mot d'un texte.");
 function getLongestWord(string) {
-    stringConverted = string.replace(/[^\w\s]+/g);
+    stringConverted = string.replace(/[^\w\s]+/g, '');
     let array = stringConverted.split(" ");
     let maxLength = 0;
     let longestWord = ""; 
